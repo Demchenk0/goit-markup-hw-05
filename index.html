@@ -56,9 +56,19 @@
         <a href=""></a>
         <div class="container">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-          <button type="button" class="button-primary">Заказать услуги</button>
+          <button data-modal-open type="button" class="button-primary">Заказать услуги</button>
+          <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+              <button data-modal-close class="modal-clouse">
+                <svg slass="icon" width="30" height="30">
+                  <use href="./images/symbol-defs.svg#clouse">
+                  </use>
+                </svg>
+              </button>  
+            </div>
+          </div>
         </div>
-      </div>
+      </div> 
       </section>
       <!-- секція 2 -->
       <section class="section peculiarities">
@@ -117,14 +127,21 @@
         <div class="container">
           <h2 class="section-title">Чем мы занимаемся</h2>
           <ul class="images">
-            <li class="item"><img src="./images/box1.jpg" alt="кодування" width="370" /></li>
-            <li class="item"><img src="./images/img(1).jpg" alt="адаптация" width="370" /></li>
-            <li class="item"><img src="./images/img(2).jpg" alt="дизайн" width="370" /></li>
+            <li class="item-engaged">
+              <img class="item-engaged__img" src="./images/box1.jpg" alt="кодування" width="370" />
+              <div class="item-engaged__label">Десктопные приложения</div>
+            </li>
+            <li class="item-engaged"><img class="item-engaged__img" src="./images/img(1).jpg" alt="адаптация" width="370" />
+            <div class="item-engaged__label">Мобильные приложения</div>
+          </li>
+            <li class="item-engaged"><img class="item-engaged__img"src="./images/img(2).jpg" alt="дизайн" width="370" />
+            <div class="item-engaged__label">дизайнерские решения</div>
+          </li>
           </ul>
         </div>
       </section>
       <!-- Наша команда -->
-      <section class="section-team" style="background-color: #F5F4FA;" >
+      <section class="section-team">
         <div class="container">
           <h2 class="section-title centered">Наша команда</h2>
           <ul class="team no-padding">
@@ -387,5 +404,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>

@@ -1,172 +1,182 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфолио</title>
-    <link 
-    href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" 
-    rel="stylesheet"
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-    <link 
-    href="./css/styles.css" rel="stylesheet"
-    /> 
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link href="./css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
     <!-- Шапка сайта -->
-<header class="header">
-    <div class="container main-nav">
-    <a href="./" class="logo">
-        <span class="accent">Web</span>Studio
-    </a>
-    <nav class="container-nav">
-        <ul class="site-nav list"> 
-            <li class="item"> <a href="./index.html" class="link">Студия</a></li>
-            <li class="item"> <a href="./portfolio.html" class="link current">Портфолио</a></li>
-            <li class="item"> <a href="" class="link">Контакты</a></li>
-        </ul>
-    </nav>
-    <div class="auth-nav">
-        <ul class="auth-nav list">
+    <header class="header">
+      <div class="container main-nav">
+        <a href="./" class="logo"> <span class="accent">Web</span>Studio </a>
+        <nav class="container-nav">
+          <ul class="site-nav list">
+            <li class="item"><a href="./index.html" class="link">Студия</a></li>
+            <li class="item"><a href="./portfolio.html" class="link current">Портфолио</a></li>
+            <li class="item"><a href="" class="link">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="auth-nav">
+          <ul class="auth-nav list">
             <li class="item">
-                <a href="info@devstudio.com" class="header-contact"><svg class="nav-envelope">
-                    <use href="./images/symbol-defs.svg#envelope">
-                    </use>
+              <a href="info@devstudio.com" class="header-contact">
+                <svg class="nav-envelope">
+                  <use href="./images/symbol-defs.svg#envelope"></use>
                 </svg>
-                info@devstudio.com</a>
+                info@devstudio.com</a
+              >
             </li>
-            <li class="item">  
-                <a href="tel:+380961111111" class="header-contact"><svg class="nav-smartphone">
-                    <use href="./images/symbol-defs.svg#smartphone">
-                    </use>
+            <li class="item">
+              <a href="tel:+380961111111" class="header-contact">
+                <svg class="nav-smartphone">
+                  <use href="./images/symbol-defs.svg#smartphone"></use>
                 </svg>
-                +380961111111</a>
+                +380961111111</a
+              >
             </li>
-            
-        </ul>
-    </div>
-    </div>
-</header>
+          </ul>
+        </div>
+      </div>
+    </header>
     <!-- Основна -->
     <main>
-        <section class="section">
-           <div class="container">
-             <h1 class="visually-hidden">Основные кнопки</h1>
-            <ul class="filters list">
-                <li class="item">
-                    <button type="button" class="filter">Все
-                    </button>
-                </li>
-                <li class="item"> 
-                    <button type="button" class="filter">Веб-сайты                        
-                    </button>
-                </li>
-                <li class="item"> 
-                    <button type="button" class="filter">Приложения
-                    </button>
-                </li>
-                <li class="item"> 
-                    <button type="button" class="filter">Дизайн
-                    </button>
-                </li>
-                <li class="item"> 
-                    <button type="button" class="filter">Маркетинг
-                    </button>
-                </li>
-            </ul>
-            <h2 class="visually-hidden">Проекты</h2>
-            <ul class="project">
-                <li class="project-elements">
-                    <img
-                        src="./images/proj1.jpg" 
-                        alt="картинка" 
-                        width="370"
-                        class="project-img">
-                    <div class="project-description">
-                        <h3 class="title">Технокряк</h3>
-                        <p class="text">Веб-сайты</p>
-                    </div>
-                </li>
-                <li class="project-elements">
-                    <img src="./images/proj2.jpg" 
-                        alt="баскетболл" 
-                        width="370"
-                        class="project-img">
-                    <div class="project-description">
-                        <h3 class="title">Постер New Orlean vs Golden Star</h3>
-                        <p class="text">Дизайн</p>
-                    </div>
-                </li>
-                <li class="project-elements">
-                    <img src="./images/proj3.jpg" 
-                        alt="Ресторан"
-                        width="370"
-                        class="project-img">
-                    <div class="project-description">
-                        <h3 class="title">Ресторан Seafood</h3>
-                        <p class="text">Приложение</p>
-                    </div>
-                </li>
-                <li class="project-elements">
-                    <img src="./images/proj4.jpg" 
-                        alt="Наушники" 
-                        width="370"
-                        class="project-img">
-                    <div class="project-description">
-                        <h3 class="title">Проект Prime</h3>
-                        <p class="text">Маркетинг</p>
-                    </div>
-                </li>
-                <li class="project-elements">
-                    <img src="./images/proj5.jpg" 
-                        alt="Боксы" width="370"
-                        class="project-img">
-                    <div class="project-description">
-                        <h3 class="title">Проект Boxes</h3>
-                        <p class="text">Приложение</p>
-                    </div>
-                </li>
-                <li class="project-elements">
-                    <img src="./images/proj6.jpg" 
-                        alt="Монитор" width="370"
-                        class="project-img">
-                    <div class="project-description">
-                        <h3 class="title">Inspiration has no Borders</h3>
-                        <p class="text">Веб-сайт</p>
-                    </div>
-                </li>
-                <li class="project-elements">
-                    <img src="./images/proj7.jpg" 
-                        alt="Книга" width="370"
-                        class="project-img">
-                    <div class="project-description">
-                        <h3 class="title">Издание Limited Edition</h3>
-                        <p class="text">Дизайн</p>
-                    </div>
-                </li>
-                <li class="project-elements">
-                    <img src="./images/proj8.jpg" 
-                        alt="Лейба" width="370"
-                        class="project-img">
-                    <div class="project-description">
-                        <h3 class="title">Проект LAB</h3>
-                        <p class="text">Маркетинг</p>
-                    </div>
-                </li>
-                <li class="project-elements">
-                    <img src="./images/proj9.jpg" 
-                        alt="Ноутбук" width="370"
-                        class="project-img">
-                    <div class="project-description">
-                        <h3 class="title">Growing Business</h3>
-                        <p class="text">Приложение</p>
-                    </div>
-                </li>
-            </ul>
-           </div>
-        </section>
+      <section class="section">
+        <div class="container">
+          <h1 class="visually-hidden">Основные кнопки</h1>
+          <ul class="filters list">
+            <li class="item">
+              <button type="button" class="filter">Все</button>
+            </li>
+            <li class="item">
+              <button type="button" class="filter">Веб-сайты</button>
+            </li>
+            <li class="item">
+              <button type="button" class="filter">Приложения</button>
+            </li>
+            <li class="item">
+              <button type="button" class="filter">Дизайн</button>
+            </li>
+            <li class="item">
+              <button type="button" class="filter">Маркетинг</button>
+            </li>
+          </ul>
+          <h2 class="visually-hidden">Проекты</h2>
+          <ul class="project">
+            <li class="project-elements">
+              <a class="project-card" href="">
+                <div class="project-relative">
+                  <img src="./images/proj1.jpg" alt="картинка" width="370" class="project-img" />
+                  <p class="project-info"> Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                </div>
+              <div class="project-description">
+                <h3 class="title">Технокряк</h3>
+                <p class="text">Веб-сайты</p>
+              </div>
+            </li>
+            <li class="project-elements">
+              <a class="project-card" href="">
+                <div class="project-relative">
+              <img src="./images/proj2.jpg" alt="баскетболл" width="370" class="project-img" />
+              <p class="project-info"> Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                </div>
+              <div class="project-description">
+                <h3 class="title">Постер New Orlean vs Golden Star</h3>
+                <p class="text">Дизайн</p>
+              </div>
+            </li>
+            <li class="project-elements">
+              <a class="project-card" href="">
+                <div class="project-relative">
+              <img src="./images/proj3.jpg" alt="Ресторан" width="370" class="project-img" />
+              <p class="project-info"> Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                </div>
+              <div class="project-description">
+                <h3 class="title">Ресторан Seafood</h3>
+                <p class="text">Приложение</p>
+              </div>
+              </a>
+              
+            </li>
+            <li class="project-elements">
+              <a class="project-card" href="">
+                <div class="project-relative">
+              <img src="./images/proj4.jpg" alt="Наушники" width="370" class="project-img" />
+              <p class="project-info"> Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                </div>
+              <div class="project-description">
+                <h3 class="title">Проект Prime</h3>
+                <p class="text">Маркетинг</p>
+              </div>
+            </li>
+            <li class="project-elements">
+              <a class="project-card" href="">
+                <div class="project-relative">
+              <img src="./images/proj5.jpg" alt="Боксы" width="370" class="project-img" />
+              <p class="project-info"> Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                </div>
+              <div class="project-description">
+                <h3 class="title">Проект Boxes</h3>
+                <p class="text">Приложение</p>
+              </div>
+            </li>
+            <li class="project-elements">
+              <a class="project-card" href="">
+                <div class="project-relative">
+              <img src="./images/proj6.jpg" alt="Монитор" width="370" class="project-img" />
+              <p class="project-info"> Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                </div>
+              <div class="project-description">
+                <h3 class="title">Inspiration has no Borders</h3>
+                <p class="text">Веб-сайт</p>
+              </div>
+            </li>
+            <li class="project-elements">
+              <a class="project-card" href="">
+                <div class="project-relative">
+              <img src="./images/proj7.jpg" alt="Книга" width="370" class="project-img" />
+              <p class="project-info"> Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                </div>
+              <div class="project-description">
+                <h3 class="title">Издание Limited Edition</h3>
+                <p class="text">Дизайн</p>
+              </div>
+            </li>
+            <li class="project-elements">
+              <a class="project-card" href="">
+                <div class="project-relative">
+              <img src="./images/proj8.jpg" alt="Лейба" width="370" class="project-img" />
+              <p class="project-info"> Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                </div>
+              <div class="project-description">
+                <h3 class="title">Проект LAB</h3>
+                <p class="text">Маркетинг</p>
+              </div>
+            </li>
+            <li class="project-elements">
+              <a class="project-card" href="">
+                <div class="project-relative">
+              <img src="./images/proj9.jpg" alt="Ноутбук" width="370" class="project-img" />
+              <p class="project-info"> Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                </div>
+              <div class="project-description">
+                <h3 class="title">Growing Business</h3>
+                <p class="text">Приложение</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
     <footer class="footer">
       <div class="container footer-box">
@@ -229,5 +239,5 @@
         </div>
       </div>
     </footer>
-</body>
+  </body>
 </html>
