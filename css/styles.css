@@ -285,7 +285,7 @@ ul {
     margin-right: auto;
     margin-top: 0;
     margin-bottom: 30px;
-    line-height 1.9;
+    line-height: 1.9;
     letter-spacing: 0.06em;
     color: var(--white-color);
     font-weight: 900;
